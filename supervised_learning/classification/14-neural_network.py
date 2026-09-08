@@ -110,7 +110,7 @@ class NeuralNetwork:
             A2 (_type_): _description_
             alpha (float, optional): _description_. Defaults to 0.05.
         """
-        
+
         m = Y.shape[1]
         dz2 = A2 - Y
         dw2 = np.matmul(A1, dz2.T) / m
