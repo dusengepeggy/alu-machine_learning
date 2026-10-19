@@ -17,3 +17,4 @@ if __name__ == "__main__":
         print("Not found")
     elif res.status_code == 200:
         print(res.json().get('location'))
+        
